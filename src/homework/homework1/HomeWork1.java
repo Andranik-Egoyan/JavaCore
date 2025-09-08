@@ -2,7 +2,7 @@ package homework.homework1;
 
 public class HomeWork1 {
     public static void main(String[] args) {
-        // 1) Համեմատել երկու թիվ
+        // 1) Համեմատել երկու թիվ 3
         int x = 6;
         int y = 12;
         if (x > y) {
