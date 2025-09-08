@@ -17,8 +17,16 @@ public class HomeWork1 {
         for (int i = 1; i <= 5; i++) {
             System.out.println(i);
         }
-
-
+        int z = 7;
+        int v = 10;
+        if (z > v) {
+            System.out.println("z > v");
+        }
+        if (z < v) {
+            System.out.println("z < v");
+        } else {
+            System.out.println("z = v");
+        }
 
 
         // 3) a+b գումարը
@@ -31,11 +39,29 @@ public class HomeWork1 {
         }
 
         // 4) n-ն բազմապատկման աղյուսակ
-        int n = 3;
-        for (
-                int i = 1;
-                i <= 10; i++) {
-            System.out.println(n + " * " + i + " = " + (n * i));
+//        int n = 4;
+//        for (int i = 1; i <= 10; i++) {
+//            System.out.println(n + " * " + i + " = " + (n * i));
+//        }
+
+
+        // 4) n-ն բազմապատկման աղյուսակ
+
+//
+//        int n=3;
+//        for (int i = 1; i <=10 ; i++) {
+//            System.out.println(n + " * " + i + " = " + (n * i) );
+//        }
+        for (int i = 1; i <=10 ; i++) {
+            for (int j = 1; j <=10 ; j++) {
+                System.out.println(i + " * " + j + " = " + (i * j));
+            }
+            System.out.println();
         }
+
+
+
+
+
     }
 }
