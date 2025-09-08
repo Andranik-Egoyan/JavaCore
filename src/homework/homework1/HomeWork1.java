@@ -13,6 +13,8 @@ public class HomeWork1 {
             System.out.println("x և y = են");
         }
 
+        System.out.println();
+
         //2) Առաջի 5 բնական թվերը
         for (int i = 1; i <= 5; i++) {
             System.out.println(i);
@@ -27,7 +29,7 @@ public class HomeWork1 {
         } else {
             System.out.println("z = v");
         }
-
+        System.out.println();
 
         // 3) a+b գումարը
         int a = 5;
@@ -37,27 +39,15 @@ public class HomeWork1 {
         {
             System.out.println("a+b = " + sum);
         }
-
+        System.out.println();
         // 4) n-ն բազմապատկման աղյուսակ
-//        int n = 4;
-//        for (int i = 1; i <= 10; i++) {
-//            System.out.println(n + " * " + i + " = " + (n * i));
-//        }
-
-
-        // 4) n-ն բազմապատկման աղյուսակ
-
-//
-//        int n=3;
-//        for (int i = 1; i <=10 ; i++) {
-//            System.out.println(n + " * " + i + " = " + (n * i) );
-//        }
-        for (int i = 1; i <=10 ; i++) {
-            for (int j = 1; j <=10 ; j++) {
-                System.out.println(i + " * " + j + " = " + (i * j));
-            }
-            System.out.println();
+        int n = 3;
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(n + " * " + i + " = " + (n * i));
         }
+
+
+
 
 
 
