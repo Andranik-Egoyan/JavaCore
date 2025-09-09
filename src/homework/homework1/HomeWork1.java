@@ -19,17 +19,7 @@ public class HomeWork1 {
         for (int i = 1; i <= 5; i++) {
             System.out.println(i);
         }
-        int z = 7;
-        int v = 10;
-        if (z > v) {
-            System.out.println("z > v");
-        }
-        if (z < v) {
-            System.out.println("z < v");
-        } else {
-            System.out.println("z = v");
-        }
-        System.out.println();
+
 
         // 3) a+b գումարը
         int a = 5;
