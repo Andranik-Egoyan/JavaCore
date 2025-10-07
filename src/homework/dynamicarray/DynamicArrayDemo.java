@@ -3,27 +3,35 @@ package homework.dynamicarray;
 public class DynamicArrayDemo {
     public static void main(String[] args) {
 
-        DynamicArray da = new
+        DynamicArray dy = new
                 DynamicArray();
 
 
-        da.add(5);
-        da.add(10);
-        da.add(15);
-
+        dy.add(5);
+        dy.add(20);
+        dy.add(30);
+        dy.add(1, 15);  // Ավելացնորմ ենք 15-ը index  = 1-ում
 
         System.out.println(" Զանգվածի պարունակությունը");
-        da.print();
+        dy.print();
 
 
-        System.out.println("Ինդեքս 0 արժեքը -> " + da.getByIndex(0));
+        System.out.println("Ինդեքս 0 արժեքը -> " + dy.getByIndex(0));
 
-        System.out.println("Ինդեքս 2 արժեքը -> " + da.getByIndex(2));
+        System.out.println("Ինդեքս 2 արժեքը -> " + dy.getByIndex(2));
 
-        System.out.println(" Ինդեքս 5 արժեքը -> " + da.getByIndex(5));
+        System.out.println(" Ինդեքս 5 արժեքը -> " + dy.getByIndex(5));
+
+        System.out.println();
+
+        System.out.println(dy.existsa(20));
+
+        System.out.println(dy.getIndexByValue(30));
+
 
 
     }
+
 
 }
 
